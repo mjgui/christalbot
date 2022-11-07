@@ -4,11 +4,19 @@
   "description": "A general purpose queue bot",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "owen-yap",
   "license": "ISC",
   "dependencies": {
-    "telegraf": "^4.10.0"
+    "axios": "^1.1.3",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
