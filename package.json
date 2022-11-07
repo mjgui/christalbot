@@ -1,0 +1,14 @@
+{
+  "name": "christalbot",
+  "version": "1.0.0",
+  "description": "A general purpose queue bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "owen-yap",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^4.10.0"
+  }
+}
