@@ -2,4 +2,4 @@
 *.env.local
 
 # firebase creds
-creds.json
+*creds.json
